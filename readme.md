@@ -54,8 +54,8 @@ Write down the following sql statements that are required to solve the following
   UPDATE owners SET name ='Janet' WHERE name ='Jane';
 13. Add a property named Archstone that has 20 units.
   INSERT INTO properties (name,units, owner_id) VALUES ('Archstone',20,1);
-14. Delete the owner named Jane.
-  DELETE FROM owners WHERE name='Jane';
+14. Delete the owner named Janet.
+  DELETE FROM owners WHERE name='Janet';
 15. Show all of the properties in alphabetical order that are not named Archstone and do not have an id of 3 or 5.
   SELECT * FROM properties WHERE name <> 'Archstone' AND property_id NOT IN (3,5) ORDER BY name ASC;
 16. Count the total number of rows in the properties table
